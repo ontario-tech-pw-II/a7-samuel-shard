@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include "Account.h" 
 #include "SavingsAccount.h" 
@@ -57,7 +56,7 @@ int main()
 
 	Angelina_Account[1]->display(cout);
 
-	cout << "-----------------------" << endl;
+	cout << "-----------------------" << endl; 
 
 	return 0;
 }
