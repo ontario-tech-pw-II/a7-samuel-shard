@@ -30,7 +30,10 @@ bool CheckingAccount::debit( double amount )
     bool success = Account::debit(amount);
     if (success){
         chargeFee();
-    }    
+        return true; //must also return bool
+    } else{
+        return false;
+    }   
 }
 
 // subtract transaction fee
