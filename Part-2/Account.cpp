@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Account::Account( double initialBalance)
+Account::Account(double initialBalance)
 {
 	if( initialBalance >= 0.0 )
 		balance = initialBalance;
@@ -32,13 +32,12 @@ double Account::getBalance() const
 	return balance;
 } 
 
-void Account::setBalance( double newBalance )
+void Account::setBalance(double newBalance)
 {
 	balance = newBalance;
 } 
 
 void Account::display(ostream & out) const
 {
-} 					
-
- 
+	out << "None " << endl; //to be overidden with derived class
+} 

@@ -9,7 +9,7 @@ class CheckingAccount : public Account {
 	private:
 		double transactionFee;
 
-		// 	TODO: subtract transaction fee form balance
+		// 	TODO: subtract transaction fee from balance
 		void chargeFee();
 	
 	public:
